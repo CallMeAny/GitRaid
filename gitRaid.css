@@ -1,0 +1,71 @@
+body {
+	font-family: "Arial";
+}
+
+.entry {
+    border-radius: 8px;
+    padding: 5px 20px 15px 20px;
+    margin: 15px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.date {
+	display: block;
+	font-family: "Courier New";
+	font-size: 10px;
+	color: #BABABA;
+	margin: 2px;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: bold;
+	display: block;
+	margin-top: 20px;
+}
+
+.author {
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+	display: block;
+	margin-bottom: 20px;
+}
+
+.repo {
+	font-size: 12px;
+}
+
+.tag {
+	border-radius: 12px;
+	background-color: #4CAF50;
+    color: white;
+    padding: 7px 10px 5px 10px;
+    margin: 2px 2px;
+    text-align: center;
+    display: inline-block;
+    font-size: 10px;
+    font-family: "Courier New";
+}
+
+.readme {
+	
+}
+
+.about {
+	
+}
+
+.tab {
+	margin: 20px;
+}
+
+.image {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    max-height: 500px;
+    width: 80%;
+    height: 80%;
+}
