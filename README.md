@@ -20,7 +20,7 @@ Therefore GitRaid takes a list of those links, and from each of the repos extrac
 2. Download the repo with ```git clone https://github.com/CallMeAny/GitRaid.git```
 3. Create a file with a list of all your links, one link per line
     * You can also use a single link, in which case you don't need a file
-4. Run the script with ```python gitRaid.py -f <inputfile || link> -o <outputfile>``` (use your own paths)
+4. Run the script with ```python gitRaid.py -f &lt;inputfile || link&gt; -o &lt;outputfile&gt;``` (use your own paths)
 5. Wait a bit, and when the script is done you have your summary of github repos ready
 
 ## ToDo
