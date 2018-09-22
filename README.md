@@ -9,7 +9,7 @@ Therefore GitRaid takes a list of those links, and from each of the repos extrac
 ## Requirements and relevant info
 
 * The script works with python3, and only requires the BeautifulSoup module.
-* Only links to main pages of repositories will work properly: https://github.com/<username>/<projectname> is the right format. 
+* Only links to main pages of repositories will work properly: https://github.com/&lt;username&gt;/&lt;projectname&gt; is the right format. 
 * The link can basically be copied from the URL of the project page.
 * Links to other pages will either be ignored or not parsed correclty.
 * To work properly, the css file (gitRaid.css) used to style the output file needs to be in the same folder as the output file.
@@ -20,7 +20,7 @@ Therefore GitRaid takes a list of those links, and from each of the repos extrac
 2. Download the repo with ```git clone https://github.com/CallMeAny/GitRaid.git```
 3. Create a file with a list of all your links, one link per line
     * You can also use a single link, in which case you don't need a file
-4. Run the script with ```python gitRaid.py -f &lt;inputfile || link&gt; -o &lt;outputfile&gt;``` (use your own paths)
+4. Run the script with ```python gitRaid.py -f <inputfile || link> -o <outputfile>``` (use your own paths)
 5. Wait a bit, and when the script is done you have your summary of github repos ready
 
 ## ToDo
