@@ -8,8 +8,9 @@ Therefore GitRaid takes a list of those links, and from each of the repos extrac
 
 ## Requirements and relevant info
 
-* The script works with python3, and only requires the BeautifulSoup module.
-* Only links to main pages of repositories will work properly: https://github.com/&lt;username&gt;/&lt;projectname&gt; is the right format. 
+* The script works with python3, and only requires the BeautifulSoup module.<
+
+* Only links to main pages of repositories will work properly: ```https://github.com/<username>/<projectname>``` is the right format. 
 * The link can basically be copied from the URL of the project page.
 * Links to other pages will either be ignored or not parsed correclty.
 * To work properly, the css file (gitRaid.css) used to style the output file needs to be in the same folder as the output file.
